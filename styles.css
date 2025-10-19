@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(192, 192, 192);
+}
+#title{
+    text-align: center;
+    background-color: white;
+    padding: 16px 0;
+}
+
+.post{
+    max-width: 600px;
+    margin: 32px auto;
+    font-size:large;
+    background-color: white;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.post-title{
+    font-weight: bold;
+}
+.post-body{
+    padding: 8px;
+}
+
+.post-image{
+    background-image: url("https://img.freepik.com/vector-premium/ilustracion-plana-dibujos-animados-fondo-paisaje-pixel-art-adecuado-juegos-arcade-estilo-retro-8-bits_544963-2213.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 400px;
+}
+
+.post-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
